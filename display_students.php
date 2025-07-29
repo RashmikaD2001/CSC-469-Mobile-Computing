@@ -16,7 +16,7 @@ $result = mysqli_query($connect, $query);
 
 // Display results
 if (mysqli_num_rows($result) > 0) {
-    echo "<h2>Student List</h2>";
+    echo "<h2>Student List5</h2>";
     echo "<table border='1' cellpadding='10'>";
     echo "<tr><th>Student ID</th><th>First Name</th><th>Last Name</th><th>Phone Number</th><th>Height (cm)</th></tr>";
 
